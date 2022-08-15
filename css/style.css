@@ -1,0 +1,111 @@
+/* header */
+.header-bg{
+    background-image: url('../images/background-image.jpg');
+    height: 324px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+.header-bg::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 60%;
+    display: block;
+
+}
+/*
+.navigation-wraper{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 30px;
+    margin:0 auto;
+    width: 1088px;
+    align-items:center;
+
+}
+*/
+.mainlogo{
+    font-family: 'Poppins';
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.navigation-div{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    width: 1088px;
+    transform: translatex(-50%);
+}
+.nav-ul{
+    display: flex;
+}
+.nav-li:not(.active){
+    margin-right: 49px;
+}
+.color{
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: 'Poppins';
+}
+.blue{
+    color: #5863F8;
+}
+
+.smalllogo{
+    margin-left: 5.5px;
+    margin-right: 47.6px;
+}
+
+/*contact div*/
+.contact-div{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 0%;
+    left: 50%;
+    transform: translatex(-50%);
+    margin-top: 146px;
+    width: 1088px;
+
+}
+.h2-contact{
+    font-family: 'Poppins';
+    font-size: 42px;
+    color: #FFFFFF;
+  
+}
+
+/* pseudo elements div*/
+.line{
+    margin-top: 14px;
+    display: flex; 
+}
+.divider{
+    height: 19px;
+    width: 1px;
+    background-color: #FFFFFF;
+}
+.line::before{
+    content:'Home';
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'Poppins';
+    margin-right: 14.5px;
+
+}
+.line::after{
+    content:'Contact';
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'Poppins';
+    margin-left: 16.5px;
+}
+
