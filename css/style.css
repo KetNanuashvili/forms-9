@@ -43,7 +43,8 @@
     position: absolute;
     top: 30px;
     left: 50%;
-    width: 1088px;
+    max-width: 1088px;
+    width: 100%;
     transform: translatex(-50%);
 }
 .nav-ul{
@@ -75,7 +76,8 @@
     left: 50%;
     transform: translatex(-50%);
     margin-top: 146px;
-    width: 1088px;
+    max-width: 1088px;
+    width: 100%;
 
 }
 .h2-contact{
@@ -113,12 +115,14 @@
 
 /*section 1*/
 .section1{
-    width: 1088px;
+    max-width: 1088px;
+    width: 100%;
     margin: 0 auto;
 }
 /* map div*/
 .map{
-    width: 1088px;
+    max-width: 1088px;
+    width: 100%;
     height: 286px;
     margin-top: 42px;
    margin-bottom: 84px;
@@ -253,7 +257,81 @@
     width: 100%;
     height: 352px;
 }
+/*footer*/
+.footer{
+    width: 100%;
+    height: 395px;
+    background-color: #121212;
+}
+.top-footer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    width: 100%;
+    height: 191px;
+    margin: 0 auto;
+    padding-top: 90px;
+    padding-bottom: 54px;
+}
+/* first hotel div*/
+.hotels-div{
+    max-width: 260px;
+    width: 100%;
+    height: 191px;
+}
+.logos-div{
+    display: flex;
+}
+.hottels-h4{
+    font-size: 24px;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+}
+.paragrap-footer{
+    color: #B1B1B1;
+    font-size: 14px;
+    font-family: 'Poppins';
+    margin:20px 0;
+}
+.icons-size{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.fb-icon{
+    background-color: #3B5998;
+}
+.twiter-icon{
+    margin-top: ;
+    margin: 0 10.6px;
+    background-color: #55ACEE;
+}
+.G-icon{
+    background-color: #DC4E41;
+}
+/*second links div*/
+.links-title{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: 'Poppins semi';
+    margin-bottom: 20px;
+}
+.li-tags{
+    color: #5863F8;
+    font-size: 14px;
+    font-family: 'Poppins regular';
+}
+.li-tags:nth-child(1),
+.li-tags:nth-child(2),
+.li-tags:nth-child(3){
+    margin-bottom: 10px;
+}
+/*bottom-footer*/
+.bottom-footer{
+    max-width: 10880x;
+    width: 100%;
 
+}
 
 
 

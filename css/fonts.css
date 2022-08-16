@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Poppins';
+    font-family: 'Poppins bold';
     src: url('../fonts/poppins/Poppins-Bold.eot');
     src: url('../fonts/poppins/Poppins-Bold.eot?#iefix') format('embedded-opentype'),
         url('../fonts/poppins/Poppins-Bold.woff2') format('woff2'),
@@ -10,7 +10,7 @@
     font-display: swap;
 }
 @font-face {
-    font-family: 'Poppins';
+    font-family: 'Poppins semi';
     src: url('../fonts/poppins/Poppins-SemiBold.eot');
     src: url('../fonts/poppins/Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
         url('../fonts/poppins/Poppins-SemiBold.woff2') format('woff2'),
@@ -21,7 +21,7 @@
     font-display: swap;
 }
 @font-face {
-    font-family: 'Poppins ';
+    font-family: 'Poppins extra ';
     src: url('../fonts/poppins/Poppins-ExtraBold.eot');
     src: url('../fonts/poppins/Poppins-ExtraBold.eot?#iefix') format('embedded-opentype'),
         url('../fonts/poppins/Poppins-ExtraBold.woff2') format('woff2'),
@@ -32,7 +32,7 @@
     font-display: swap;
 }
 @font-face {
-    font-family: 'Poppins';
+    font-family: 'Poppins regular';
     src: url('../fonts/poppins/Poppins-Regular.eot');
     src: url('../fonts/poppins/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
         url('../fonts/poppins/Poppins-Regular.woff2') format('woff2'),
