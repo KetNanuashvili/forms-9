@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
-    <title>Document</title>
-    <link rel="icon" href="#">
+    <link rel="icon" href="images/icon.png">
     <link rel="stylesheet" href="css/recet.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="fonts/poppins/">
+    <title>Document</title>
 </head>
-<body>
+<body style="height: 5000px;">
     <header>
         <div class="header-bg">
             <div class="navigation-wraper">
@@ -54,6 +53,40 @@
             </div>
         </div>
     </header>
-    
+    <section class="section1">
+        <div class="map">
+            <iframe class="map-block" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.6969156084087!2d44.77732021543564!3d41.70547817923626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cce3a01fef7%3A0x2a75ae2128072d6!2s30%20Vasil%20Petriashvili%20Street%2C%20T'bilisi!5e0!3m2!1sen!2sge!4v1658335793805!5m2!1sen!2sge"
+             style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <h5 class="h5-contact">Contact</h5>
+        <h3 class="h3-contact"> Contact us to get 
+            free support
+        </h3>
+         
+            <form class="forms" action="#">
+                <div class="textarea-div">
+                    <label for="description"> </label>
+                    <textarea class="textarea-form"  name="review" id="description" placeholder="description"></textarea>
+                </div>
+                <div class="smallform-divs">
+                    <div>
+                        <label for="subject"></label>
+                        <input class="input-form" type="text" name="subject" id="subject" placeholder="subject">
+                    </div>
+                        
+                    <div>
+                        <label for="Name"></label>
+                        <input class="input-form active-2" type="text" name="name" id="Name" placeholder="Name / Surname">
+                    </div>
+                    <div>
+                        <label for=""></label>
+                        <input class="input-form" type="text" name="" id="" placeholder="Email">
+                    </div>
+                    <button class="submit" type="submit"> send
+                        <img src="images/send.svg" alt="send">
+                     </button>
+
+            </form>     
+    </section>   
 </body>
 </html>

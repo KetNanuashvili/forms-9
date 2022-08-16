@@ -21,7 +21,7 @@
     font-display: swap;
 }
 @font-face {
-    font-family: 'Poppins';
+    font-family: 'Poppins ';
     src: url('../fonts/poppins/Poppins-ExtraBold.eot');
     src: url('../fonts/poppins/Poppins-ExtraBold.eot?#iefix') format('embedded-opentype'),
         url('../fonts/poppins/Poppins-ExtraBold.woff2') format('woff2'),
