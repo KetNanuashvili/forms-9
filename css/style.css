@@ -229,6 +229,19 @@
     width: 100%;
     height: 58px;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.border-divs:hover{
+    background-color: #4386D2;
+    cursor: pointer;
+}
+.icons{
+    color: #FFFFFF;
+    width: 16.04px;
+    height: 16.08px;
+    
 }
 /*texts section*/
 .texts-div{
@@ -266,9 +279,8 @@
 .top-footer{
     display: flex;
     justify-content: space-between;
-    max-width: 1000px;
+    max-width: 1040px;
     width: 100%;
-    height: 191px;
     margin: 0 auto;
     padding-top: 90px;
     padding-bottom: 54px;
@@ -297,17 +309,26 @@
     width: 35px;
     height: 35px;
     border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.icons-size:hover{
+    cursor: pointer;
+ }
 .fb-icon{
     background-color: #3B5998;
 }
 .twiter-icon{
-    margin-top: ;
     margin: 0 10.6px;
     background-color: #55ACEE;
 }
 .G-icon{
     background-color: #DC4E41;
+}
+.white-icons{
+    color: #FFFFFF;
+    width: 10.48px;
 }
 /*second links div*/
 .links-title{
@@ -326,11 +347,30 @@
 .li-tags:nth-child(3){
     margin-bottom: 10px;
 }
+.icons-2{
+    border: #5863F8;
+    width: 16.04px;
+ }
+ .icons-2:hover{
+    background-color: #4386D2;
+    cursor: pointer;
+ }
 /*bottom-footer*/
 .bottom-footer{
-    max-width: 10880x;
+    max-width: 1088px;
     width: 100%;
-
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.copyright{
+    color: #B1B1B1;
+    font-size: 14px;
+    font-family: 'Poppins regular';
+}
+.link-2{
+    color: #5863F8;
+    font-size: 14px;
 }
 
 
