@@ -28,6 +28,9 @@
     .picture3{
         width: 100%;
     }
+    .texts-div{
+        width: 90%;
+    }
 }
 @media(max-width:940px){
     .forms{
@@ -67,24 +70,26 @@
     .photo-divs-2{
         margin: 40px 0;
     }
+    .links-maindiv{
+        max-width:450px ;
+        width: 100%;
+    }
 }
 @media(max-width:870px){
-    .ul-li{
+    .burger-bar{
+        display: block;
+    }
+    .links-maindiv{
         display: none;
-    }
-    .links-main{
-        display: flex;
-        flex-direction: column;
-    }
-    .links-title{
-        font-size: 15px;
-    }
-    .links-title:hover{
-        cursor: pointer;
-        color: blue;
     }
 }
 @media(max-width:768px){
+    .textarea-div{
+        width: 90%;
+    }
+    .smallform-divs{
+        width: 90%;
+    }
     .burger-bar{
         display: block;
     }
@@ -101,5 +106,19 @@
     }
     .small-divs{
         margin:40px 0;
+    }
+}
+@media(max-width:480px){
+    .photo-divs{
+        width: 90%;
+        height: 90%;
+    }
+    .copyright{
+        display: none;
+    }
+}
+@media(max-width:320px) {
+    .h3-contact{
+        font-size: 30px;
     }
 }
