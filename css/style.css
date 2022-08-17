@@ -53,6 +53,17 @@
 .nav-li:not(.active){
     margin-right: 49px;
 }
+.burger-bar{
+    display: none;
+    font-size: 35px;
+    margin: 0 30px 0 0;
+    color: #FFFFFF;
+}
+.burger-bar:hover{
+    cursor: pointer;
+    color: blue;
+}
+
 .color{
     color: #FFFFFF;
     font-size: 12px;
@@ -84,9 +95,7 @@
     font-family: 'Poppins';
     font-size: 42px;
     color: #FFFFFF;
-  
 }
-
 /* pseudo elements div*/
 .line{
     margin-top: 14px;
@@ -125,8 +134,8 @@
     width: 100%;
     height: 286px;
     margin-top: 42px;
-   margin-bottom: 84px;
-   
+    margin-bottom: 84px;
+    display: flex;
 }
 .map-block{
  width: 100%;
@@ -214,7 +223,6 @@
     margin: 50px auto 0;
     display: flex;
     justify-content: space-between;
-
 }
 .small-divs{
     max-width: 362px;
@@ -265,10 +273,10 @@
 .pictures-div{
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
     margin: 0 auto;
     max-width: 1366px;
     width: 100%;
-    height: 352px;
 }
 /*footer*/
 .footer{
@@ -280,12 +288,15 @@
     display: flex;
     justify-content: space-between;
     max-width: 1040px;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     padding-top: 90px;
     padding-bottom: 54px;
 }
 /* first hotel div*/
+.ul-li{
+    display: block;
+}
 .hotels-div{
     max-width: 260px;
     width: 100%;
@@ -331,6 +342,12 @@
     width: 10.48px;
 }
 /*second links div*/
+.links-maindiv{
+    max-width: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 .links-title{
     color: #FFFFFF;
     font-size: 18px;
@@ -358,7 +375,7 @@
 /*bottom-footer*/
 .bottom-footer{
     max-width: 1088px;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
